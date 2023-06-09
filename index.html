@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <style>
+
+        
+        
         html{
              height: 100%;
              width: 100%;
@@ -47,8 +53,45 @@
             width: 100%;
 
         }
-    
-        
+
+        svg{
+            height: 25px;
+        }
+
+        #nav{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #snatch{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #snatch img{
+            height: 500px;
+            width: 400px;
+        }
+        #snatch{
+            height: 1000px;
+            display: flex;
+        }
+        #snatch div{
+            display: flex;
+            flex-direction: column;
+        }
+
+        button{
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-size: medium;
+            font-weight: bold;
+            height: 40px;
+            width: 200px;
+            border-style: none;
+            font-family: 'Poppins', sans-serif;
+        }
        
     
     </style>
@@ -58,7 +101,11 @@
     <header>
         <div id="bhd">BHD</div>
         <div id="logo"><img src="https://cdn.shopify.com/s/files/1/0574/1998/9172/files/crop.logo_360x.jpg?v=1623161855" alt=""></div>
-        <div id="nav">NAV</div>
+        <div id="nav">
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 37 40"><path d="M35.6 36l-9.8-9.8c4.1-5.4 3.6-13.2-1.3-18.1-5.4-5.4-14.2-5.4-19.7 0-5.4 5.4-5.4 14.2 0 19.7 2.6 2.6 6.1 4.1 9.8 4.1 3 0 5.9-1 8.3-2.8l9.8 9.8c.4.4.9.6 1.4.6s1-.2 1.4-.6c.9-.9.9-2.1.1-2.9zm-20.9-8.2c-2.6 0-5.1-1-7-2.9-3.9-3.9-3.9-10.1 0-14C9.6 9 12.2 8 14.7 8s5.1 1 7 2.9c3.9 3.9 3.9 10.1 0 14-1.9 1.9-4.4 2.9-7 2.9z"></path></svg>
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-login" viewBox="0 0 28.33 37.68"><path d="M14.17 14.9a7.45 7.45 0 1 0-7.5-7.45 7.46 7.46 0 0 0 7.5 7.45zm0-10.91a3.45 3.45 0 1 1-3.5 3.46A3.46 3.46 0 0 1 14.17 4zM14.17 16.47A14.18 14.18 0 0 0 0 30.68c0 1.41.66 4 5.11 5.66a27.17 27.17 0 0 0 9.06 1.34c6.54 0 14.17-1.84 14.17-7a14.18 14.18 0 0 0-14.17-14.21zm0 17.21c-6.3 0-10.17-1.77-10.17-3a10.17 10.17 0 1 1 20.33 0c.01 1.23-3.86 3-10.16 3z"></path></svg>
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 37 40"><path d="M36.5 34.8L33.3 8h-5.9C26.7 3.9 23 .8 18.5.8S10.3 3.9 9.6 8H3.7L.5 34.8c-.2 1.5.4 2.4.9 3 .5.5 1.4 1.2 3.1 1.2h28c1.3 0 2.4-.4 3.1-1.3.7-.7 1-1.8.9-2.9zm-18-30c2.2 0 4.1 1.4 4.7 3.2h-9.5c.7-1.9 2.6-3.2 4.8-3.2zM4.5 35l2.8-23h2.2v3c0 1.1.9 2 2 2s2-.9 2-2v-3h10v3c0 1.1.9 2 2 2s2-.9 2-2v-3h2.2l2.8 23h-28z"></path></svg>
+        </div>
         <div id="home">
             <ul>
                 <li style="text-decoration: underline;">HOME</li>
@@ -68,12 +115,19 @@
                 <li>TOOLS</li>
                 <li>SALE</li>
                 <li>$10 OR LESS</li>
-                <li>Hi</li>
             </ul>
         </div>
     </header>
     <main>
         <img src="https://cdn.shopify.com/s/files/1/0574/1998/9172/files/504ce8bf-a72a-4dc7-92e0-16400ad9f7ee_2.jpg?v=1623211427" alt="">
+        <div id="snatch">
+            
+            <img id="FeatureRowImage-feature-row" class="feature-row__image lazyautosizes lazyloaded" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="0.8" data-sizes="auto" alt="" data-srcset="//cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_180x.jpg?v=1623214484 180w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_360x.jpg?v=1623214484 360w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_540x.jpg?v=1623214484 540w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_720x.jpg?v=1623214484 720w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_900x.jpg?v=1623214484 900w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_1080x.jpg?v=1623214484 1080w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_1296x.jpg?v=1623214484 1296w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_1512x.jpg?v=1623214484 1512w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_1728x.jpg?v=1623214484 1728w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_2048x.jpg?v=1623214484 2048w" sizes="436px" srcset="//cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_180x.jpg?v=1623214484 180w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_360x.jpg?v=1623214484 360w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_540x.jpg?v=1623214484 540w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_720x.jpg?v=1623214484 720w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_900x.jpg?v=1623214484 900w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_1080x.jpg?v=1623214484 1080w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_1296x.jpg?v=1623214484 1296w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_1512x.jpg?v=1623214484 1512w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_1728x.jpg?v=1623214484 1728w, //cdn.shopify.com/s/files/1/0574/1998/9172/files/PHOTO-2021-01-07-09-08-13_2048x.jpg?v=1623214484 2048w">
+            <div id="btn"><h1>𝙶𝚎𝚝 𝚢𝚘𝚞𝚛 𝚎𝚢𝚎𝚜 𝚜𝚗𝚊𝚝𝚌𝚑𝚎𝚍 𝚒𝚗 𝟼𝟶 𝚜𝚎𝚌𝚘𝚗𝚍𝚜 !</h1>
+                <p>𝙰 𝚐𝚎𝚗𝚒𝚞𝚜 𝚋𝚎𝚊𝚞𝚝𝚢 𝚑𝚊𝚌𝚔 𝚝𝚘 𝚜𝚌𝚞𝚕𝚙𝚝 𝚢𝚘𝚞𝚛 𝚏𝚎𝚊𝚝𝚞𝚛𝚎𝚜</p>
+                <button>GET ME SNATCHED</button></div>
+            
+        </div>
     </main>
     
 </body>
